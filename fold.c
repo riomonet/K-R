@@ -18,7 +18,7 @@ char *fold(char *str) {
 	    if (lst_space == -1) {
 		output[out_p++] = '\n';
 		mod = 1;
-	    continue;
+		continue;
 	    } else if (str[str_p] == ' ') {
 		output[out_p++] = '\n';
 		str_p++;
