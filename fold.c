@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#define MAX_COL 6
+#define MAX_COL 23
 
 char *fold(char *str) {
     char *output = malloc(1024);
@@ -57,6 +57,5 @@ int main(void) {
     return 0;
 }
 
-//    ("Ariel|Zablo|zki|is|the|coole|st|guy I|know,|I|hope|he|likes|to|stay|cool|and|be|cool!");
 
 
