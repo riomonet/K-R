@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #define TABS 8
 #define SPACE_CHAR '-'
 
-/* Converts a series of consecutive spaces to the tab character. */
+/* Converts a series of consecutive spaces in a string to a tab character. */
 char *entab(char *str) {
     char *output = malloc(1024);
     int i = 0;
